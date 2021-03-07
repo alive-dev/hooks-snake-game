@@ -17,6 +17,7 @@ import {
     initialValues,
 } from "./constants";
 
+let timer = undefined;
 const unsubscribe = () => {
     if (!timer) {
         return;
